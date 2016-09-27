@@ -9,11 +9,27 @@
 #import <Foundation/Foundation.h>
 #import "SailsMapCommon.h"
 
+static int WITHOUT_FOLLOW_HEADING = 512;
+static int WITH_GPS = 2048;
+
 @class LocationRegion;
 
 @interface Sails : NSObject
 
 #pragma mark Switch Method
+
+- (void)setGPSFloorLayer:(NSString *)layer;
+
+- (BOOL)isUseGPS;
+
+- (void)setMode:(int)m;
+
+- (BOOL)checkMode:(int)m;
+
+- (void)setMagneticDefaultInclinationAngle:(float)angle;
+
+- (BOOL)isMagneticInterfered;
+
 /**
  * Call for begin to locate. engine will be start.
  */

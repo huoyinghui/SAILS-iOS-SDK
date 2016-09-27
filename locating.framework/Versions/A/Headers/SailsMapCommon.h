@@ -275,8 +275,10 @@
 /**
  @brief SailsMapView: display map
  */
-@interface SailsMapView : UIView
-
+@interface SailsMapView : UIView {
+    BoundingBox *mapBoundingBox;
+    
+}
 @end
 
 
@@ -340,6 +342,8 @@ typedef NS_ENUM(NSInteger, SailsMapControlMode) {
 @interface SailsLocationMapView : SailsMapView
 
 #pragma mark Operation Method
+
+- (BOOL)isInMap:(GeoPoint *)gp;
 
 /**
  * Load the calculated floor's map into the map view.
