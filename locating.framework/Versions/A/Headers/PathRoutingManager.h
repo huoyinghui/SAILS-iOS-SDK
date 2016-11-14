@@ -296,7 +296,9 @@ typedef NS_ENUM(NSInteger, PathRoutingDirection) {
  */
 - (BOOL)isArriveTarget;
 
+- (NSArray *)getCurrentAllPathNodes;
 @end
+
 
 
 #pragma mark - SwitchFloorInfo Class

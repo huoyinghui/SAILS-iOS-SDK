@@ -40,6 +40,7 @@ typedef NS_ENUM(NSInteger, LocationRegionLanguage) {
 @property (nonatomic, strong) NSString *japanese;
 @property (nonatomic, strong) NSString *type;
 @property (nonatomic, strong) NSString *subtype;
+@property (nonatomic, strong) NSString *url;
 @property (nonatomic) int locationSelf;
 
 #pragma mark Setter Method
@@ -120,6 +121,8 @@ typedef NS_ENUM(NSInteger, LocationRegionLanguage) {
  * @return true if is in the location region.
  */
 - (BOOL)isInRegion:(double)lon latitude:(double)lat;
+
+- (NSString*) getURL;
 
 
 /**

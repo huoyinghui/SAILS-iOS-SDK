@@ -677,5 +677,9 @@ typedef NS_ENUM(NSInteger, SailsMapControlMode) {
  */
 - (BOOL)isInLocationFloor;
 
+
+- (CGPoint)lonLatToPointXY:(GeoPoint *)point;
+-(void) setZoomLevelMin:(int)minZoom ;
+
 @end
 

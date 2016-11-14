@@ -460,7 +460,11 @@ static int WITH_GPS = 2048;
  */
 - (double)getLatitude;
 
+-(void) loadZipPackageWithURL: (NSString*) url version:(NSString*) version success:(void (^)(void))success failure:(void (^)(NSError *error))failure;
 
+-(BOOL) isLatterVersion:(NSString*) version;
+
+- (void) loadLastBuildingAuto: (NSURL *)filePath withVersion:(NSString*) version success:(void (^)(void))success failure:(void (^)(NSError *error))failure;
 
 @end
 
