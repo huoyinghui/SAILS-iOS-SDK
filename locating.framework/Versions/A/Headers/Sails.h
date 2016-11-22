@@ -445,6 +445,9 @@ static int WITH_GPS = 2048;
  * @return true if fix location is in location region.
  */
 - (BOOL)amIHere:(LocationRegion *)region;
+
+- (void)setGPSThresholdParameterInToOut:(int)inToOut outToIn:(int)outToIn powerThreshold:(int)rssi;
+
 /**
  * Get current longitude of user location.
  *
