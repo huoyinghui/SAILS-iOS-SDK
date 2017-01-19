@@ -303,6 +303,8 @@ typedef NS_ENUM(NSInteger, PathRoutingDirection) {
 - (NSArray *)getCurrentAllPathNodes;
 
 - (PathRoutingManager *)routingOnlyOnce:(BOOL)once;
+
+- (void)routingOnceRefresh;
 @end
 
 
