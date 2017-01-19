@@ -93,6 +93,10 @@ typedef NS_ENUM(NSInteger, PathRoutingDirection) {
 
 #pragma mark Switch Method
 
+@property(nonatomic) BOOL routingOnce;
+
+@property(nonatomic) BOOL routed;
+
 /**
  * Begin to route. (Note: start & end point must be set before going to route)
  */
@@ -297,6 +301,8 @@ typedef NS_ENUM(NSInteger, PathRoutingDirection) {
 - (BOOL)isArriveTarget;
 
 - (NSArray *)getCurrentAllPathNodes;
+
+- (PathRoutingManager *)routingOnlyOnce:(BOOL)once;
 @end
 
 
@@ -348,6 +354,7 @@ typedef NS_ENUM(NSInteger, PathRoutingDirection) {
  * The belong LocationRegion of head-transfer.
  */
 @property (nonatomic, strong) LocationRegion *fromBelongsRegion;
+
 
 - (id)initWithGeoNode:(GeoNode *)geonode nodeType:(PathRoutingNodeType)nodetype direction:(PathRoutingDirection)nodedirection toFloorName:(NSString *)tofloorname;
 

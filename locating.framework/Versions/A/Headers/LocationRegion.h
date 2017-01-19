@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+@class MapDatabase;
+
 #pragma mark Location Region Language
 /**
  * LocationRegionLanguage.
@@ -70,6 +72,8 @@ typedef NS_ENUM(NSInteger, LocationRegionLanguage) {
  */
 - (NSString *)getFloorName;
 
+
+- (MapDatabase *)getFloor;
 
 /**
  * Get location region's floor description.

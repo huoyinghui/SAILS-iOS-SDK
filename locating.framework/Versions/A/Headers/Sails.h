@@ -18,7 +18,11 @@ static int WITH_GPS = 2048;
 
 #pragma mark Switch Method
 
+@property(nonatomic, copy) NSString *gpsFloorLayer;
+
 - (void)setGPSFloorLayer:(NSString *)layer;
+
+- (void)setGPSFloorLayerInternal:(NSString *)layer;
 
 - (BOOL)isUseGPS;
 
