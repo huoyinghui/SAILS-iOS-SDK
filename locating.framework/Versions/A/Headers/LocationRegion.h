@@ -136,4 +136,7 @@ typedef NS_ENUM(NSInteger, LocationRegionLanguage) {
  */
 - (BOOL)hasPathNode;
 
+- (void)setGpsArea:(bool)gpsArea;
+
+- (BOOL)gpsArea;
 @end
