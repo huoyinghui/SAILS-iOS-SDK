@@ -20,6 +20,8 @@ static int WITH_GPS = 2048;
 
 @property(nonatomic, copy) NSString *gpsFloorLayer;
 
+- (NSMutableArray *)sortLocationRegionsByPathLength:(NSArray *)locationRegions;
+
 - (void)setGPSFloorLayer:(NSString *)layer;
 
 - (void)setGPSFloorLayerInternal:(NSString *)layer;

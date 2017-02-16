@@ -45,6 +45,8 @@ typedef NS_ENUM(NSInteger, LocationRegionLanguage) {
 @property (nonatomic, strong) NSString *url;
 @property (nonatomic) int locationSelf;
 
+@property(nonatomic) double updatedLength;
+@property(nonatomic) int changeFloorCount;
 #pragma mark Setter Method
 
 /**
@@ -139,4 +141,6 @@ typedef NS_ENUM(NSInteger, LocationRegionLanguage) {
 - (void)setGpsArea:(bool)gpsArea;
 
 - (BOOL)gpsArea;
+
+- (void)setUpdatedLength:(double)updatedLength;
 @end
