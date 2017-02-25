@@ -39,7 +39,12 @@ typedef NS_ENUM(NSInteger, PathRoutingMode) {
      * Routing Mode: only take elevator and escalator into 3D routing account.
      *
      */
-    ElevatorAndEscalatorMode = 4
+    ElevatorAndEscalatorMode = 4,
+    /**
+     * Routing Mode: wheel-can-go path routing.
+     *
+     */
+    WheelMode = 5
 };
 
 #pragma mark Path Routing Node Type
