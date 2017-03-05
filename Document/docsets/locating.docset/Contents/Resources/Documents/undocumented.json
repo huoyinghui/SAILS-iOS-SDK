@@ -1,0 +1,600 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/Sails.h",
+      "line": 12,
+      "symbol": "WITHOUT_FOLLOW_HEADING",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/Sails.h",
+      "line": 13,
+      "symbol": "WITH_GPS",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/Sails.h",
+      "line": 17,
+      "symbol": "Sails",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/Sails.h",
+      "line": 21,
+      "symbol": "Sails.gpsFloorLayer",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/Sails.h",
+      "line": 23,
+      "symbol": "Sails.-sortLocationRegionsByPathLength:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/Sails.h",
+      "line": 25,
+      "symbol": "Sails.-setGPSFloorLayer:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/Sails.h",
+      "line": 27,
+      "symbol": "Sails.-setGPSFloorLayerInternal:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/Sails.h",
+      "line": 29,
+      "symbol": "Sails.-isUseGPS",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/Sails.h",
+      "line": 31,
+      "symbol": "Sails.-setMode:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/Sails.h",
+      "line": 33,
+      "symbol": "Sails.-checkMode:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/Sails.h",
+      "line": 35,
+      "symbol": "Sails.-setMagneticDefaultInclinationAngle:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/Sails.h",
+      "line": 37,
+      "symbol": "Sails.-isMagneticInterfered",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/Sails.h",
+      "line": 78,
+      "symbol": "Sails.-loadLocalZipBuildingFile:success:failure:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/Sails.h",
+      "line": 455,
+      "symbol": "Sails.-setGPSThresholdParameterInToOut:outToIn:powerThreshold:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/Sails.h",
+      "line": 472,
+      "symbol": "Sails.-loadZipPackageWithURL:version:success:failure:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/Sails.h",
+      "line": 474,
+      "symbol": "Sails.-isLatterVersion:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/Sails.h",
+      "line": 476,
+      "symbol": "Sails.-loadLastBuildingAuto:withVersion:success:failure:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/Sails.h",
+      "line": 483,
+      "symbol": "GeoNode",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/Sails.h",
+      "line": 485,
+      "symbol": "GeoNode.longitude",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/Sails.h",
+      "line": 486,
+      "symbol": "GeoNode.latitude",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/Sails.h",
+      "line": 487,
+      "symbol": "GeoNode.floorNumber",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/Sails.h",
+      "line": 488,
+      "symbol": "GeoNode.floorName",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/Sails.h",
+      "line": 489,
+      "symbol": "GeoNode.belongsRegion",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/Sails.h",
+      "line": 491,
+      "symbol": "GeoNode.-initWithLogitude:latitude:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 20,
+      "symbol": "GeoPoint.longitude",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 21,
+      "symbol": "GeoPoint.latitude",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 44,
+      "symbol": "PixelPoint.x",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 45,
+      "symbol": "PixelPoint.y",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 106,
+      "symbol": "Paint.fillColor",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 107,
+      "symbol": "Paint.strokeColor",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 108,
+      "symbol": "Paint.strokeWidth",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 109,
+      "symbol": "Paint.fillAlpha",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 110,
+      "symbol": "Paint.strokeAlpha",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 111,
+      "symbol": "Paint.textFillColor",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 112,
+      "symbol": "Paint.textStrokeColor",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 113,
+      "symbol": "Paint.textStrokeWidth",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 114,
+      "symbol": "Paint.textSize",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 128,
+      "symbol": "ListOverlay.-getOverlayItems",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 140,
+      "symbol": "TextListOverlay.-getOverlayItems",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 152,
+      "symbol": "PolygonalChain.-initWithVertexList:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 153,
+      "symbol": "PolygonalChain.-getGeoPoints",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 165,
+      "symbol": "Polygon.-initWithPolygonalChains:andPolygonPaint:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 166,
+      "symbol": "Polygon.-setPolygonPaint:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 167,
+      "symbol": "Polygon.-getPolygonPaint",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 168,
+      "symbol": "Polygon.-getPolygonalChains",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 180,
+      "symbol": "Polyline.-initWithPolygonalChain:andPolylinePaint:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 181,
+      "symbol": "Polyline.-setPolylinePaint:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 182,
+      "symbol": "Polyline.-setPolygonalChain:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 183,
+      "symbol": "Polyline.-getPolylinePaint",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 184,
+      "symbol": "Polyline.-getPolygonalChain",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 196,
+      "symbol": "Circle.-initWithGeoPoint:andPaint:andRadius:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 197,
+      "symbol": "Circle.-getCircleGeoPoint",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 198,
+      "symbol": "Circle.-getCirclePaint",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 199,
+      "symbol": "Circle.-getCircleRadius",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 200,
+      "symbol": "Circle.-setCircleGeoPoint:andLatitude:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 201,
+      "symbol": "Circle.-setCirclePaint:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 202,
+      "symbol": "Circle.-setCircleRadius:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 214,
+      "symbol": "Marker.-initWithGeoPoint:andImage:andMarkerFrame:andIsBoundCenter:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 215,
+      "symbol": "Marker.-getMarkerGeoPoint",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 216,
+      "symbol": "Marker.-getImage",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 217,
+      "symbol": "Marker.-setMarkerGeoPoint:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 218,
+      "symbol": "Marker.-setImage:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 219,
+      "symbol": "Marker.-setMarkerFrame:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 220,
+      "symbol": "Marker.-isInMarker:andY:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 232,
+      "symbol": "OrientationMarker.-initWithGeoPoint:andImage:andMarkerFrame:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 233,
+      "symbol": "OrientationMarker.-getMarkerGeoPoint",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 234,
+      "symbol": "OrientationMarker.-getRotationAngle",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 235,
+      "symbol": "OrientationMarker.-getImage",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 236,
+      "symbol": "OrientationMarker.-setMarkerGeoPoint:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 237,
+      "symbol": "OrientationMarker.-setRotationAngle:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 238,
+      "symbol": "OrientationMarker.-setImage:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 239,
+      "symbol": "OrientationMarker.-setMarkerFrame:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 251,
+      "symbol": "TextOverlay.-initWithGeoPoint:andString:andPaint:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 252,
+      "symbol": "TextOverlay.-getTextOverlayList",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 253,
+      "symbol": "TextOverlay.-setTextOverlayList:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 254,
+      "symbol": "TextOverlay.-getIsDrawed",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 266,
+      "symbol": "MapPhotoOverlay.-initWithImage:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 279,
+      "symbol": "SailsMapView.mapBoundingBox",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.ivar",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 296,
+      "symbol": "SAILSMapFormat.Vector",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 297,
+      "symbol": "SAILSMapFormat.JPG",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 298,
+      "symbol": "SAILSMapFormat.VOID",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 342,
+      "symbol": "SailsLocationMapView",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 346,
+      "symbol": "SailsLocationMapView.-isInMap:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 681,
+      "symbol": "SailsLocationMapView.-lonLatToPointXY:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK/locating.framework/Versions/A/Headers/SailsMapCommon.h",
+      "line": 682,
+      "symbol": "SailsLocationMapView.-setZoomLevelMin:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/richard/Dropbox/iOS/Sails/iOS_SAILS_SDK"
+}

@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BoundingBox Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/objc/Class/BoundingBox" class="dashAnchor"></a>
+    <a title="BoundingBox Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">locating Docs</a> (58% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">locating Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        BoundingBox Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/BoundingBox.html">BoundingBox</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Circle.html">Circle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GeoNode.html">GeoNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GeoPoint.html">GeoPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ListOverlay.html">ListOverlay</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MapPhotoOverlay.html">MapPhotoOverlay</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Marker.html">Marker</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrientationMarker.html">OrientationMarker</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Paint.html">Paint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PixelPoint.html">PixelPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Polygon.html">Polygon</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PolygonalChain.html">PolygonalChain</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Polyline.html">Polyline</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Sails.html">Sails</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SailsLocationMapView.html">SailsLocationMapView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SailsMapView.html">SailsMapView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TextListOverlay.html">TextListOverlay</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TextOverlay.html">TextOverlay</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:Sails.h@WITHOUT_FOLLOW_HEADING">WITHOUT_FOLLOW_HEADING</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:Sails.h@WITH_GPS">WITH_GPS</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/SAILSMapFormat.html">SAILSMapFormat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SailsMapControlMode.html">SailsMapControlMode</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>BoundingBox</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">BoundingBox</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>@brief A BoundingBox represents an immutable set of two latitude and two longitude coordinates.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BoundingBox(py)minLatitude"></a>
+                    <a name="//apple_ref/objc/Property/minLatitude" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BoundingBox(py)minLatitude">minLatitude</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The minimum latitude coordinate of this BoundingBox in degrees.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="kt">double</span> <span class="n">minLatitude</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">minLatitude</span><span class="p">:</span> <span class="kt">Double</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BoundingBox(py)minLongitude"></a>
+                    <a name="//apple_ref/objc/Property/minLongitude" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BoundingBox(py)minLongitude">minLongitude</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The minimum longitude coordinate of this BoundingBox in degrees.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="kt">double</span> <span class="n">minLongitude</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">minLongitude</span><span class="p">:</span> <span class="kt">Double</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BoundingBox(py)maxLatitude"></a>
+                    <a name="//apple_ref/objc/Property/maxLatitude" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BoundingBox(py)maxLatitude">maxLatitude</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The maximum latitude coordinate of this BoundingBox in degrees.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="kt">double</span> <span class="n">maxLatitude</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">maxLatitude</span><span class="p">:</span> <span class="kt">Double</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BoundingBox(py)maxLongitude"></a>
+                    <a name="//apple_ref/objc/Property/maxLongitude" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BoundingBox(py)maxLongitude">maxLongitude</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The maximum longitude coordinate of this BoundingBox in degrees.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="kt">double</span> <span class="n">maxLongitude</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">maxLongitude</span><span class="p">:</span> <span class="kt">Double</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BoundingBox(im)initWithMaxLongitude:andMaxLatitude:andMinLongitude:andMinLatitude:"></a>
+                    <a name="//apple_ref/objc/Method/-initWithMaxLongitude:andMaxLatitude:andMinLongitude:andMinLatitude:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BoundingBox(im)initWithMaxLongitude:andMaxLatitude:andMinLongitude:andMinLatitude:">-initWithMaxLongitude:andMaxLatitude:andMinLongitude:andMinLatitude:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initialization BoundingBox</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="n">id</span><span class="p">)</span><span class="nf">initWithMaxLongitude</span><span class="p">:(</span><span class="kt">double</span><span class="p">)</span><span class="nv">maxLon</span>
+            <span class="nf">andMaxLatitude</span><span class="p">:(</span><span class="kt">double</span><span class="p">)</span><span class="nv">maxLat</span>
+           <span class="nf">andMinLongitude</span><span class="p">:(</span><span class="kt">double</span><span class="p">)</span><span class="nv">minLon</span>
+            <span class="nf">andMinLatitude</span><span class="p">:(</span><span class="kt">double</span><span class="p">)</span><span class="nv">minLat</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="nf">init</span><span class="o">!</span><span class="p">(</span><span class="n"><a href="../Classes/BoundingBox.html#/c:objc(cs)BoundingBox(py)maxLongitude">maxLongitude</a></span> <span class="nv">maxLon</span><span class="p">:</span> <span class="kt">Double</span><span class="p">,</span> <span class="n">andMaxLatitude</span> <span class="nv">maxLat</span><span class="p">:</span> <span class="kt">Double</span><span class="p">,</span> <span class="n">andMinLongitude</span> <span class="nv">minLon</span><span class="p">:</span> <span class="kt">Double</span><span class="p">,</span> <span class="n">andMinLatitude</span> <span class="nv">minLat</span><span class="p">:</span> <span class="kt">Double</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>maxLon</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The maximum longitude coordinate of this BoundingBox in degrees.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>maxLat</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The maximum latitude coordinate of this BoundingBox in degrees.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>minLon</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The minimum longitude coordinate of this BoundingBox in degrees.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>minLat</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The minimum latitude coordinate of this BoundingBox in degrees.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>id</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BoundingBox(im)getCenterPoint"></a>
+                    <a name="//apple_ref/objc/Method/-getCenterPoint" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BoundingBox(im)getCenterPoint">-getCenterPoint</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Get a new GeoPoint at the horizontal and vertical center of this BoundingBox.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="n"><a href="../Classes/GeoPoint.html">GeoPoint</a></span> <span class="o">*</span><span class="p">)</span><span class="n">getCenterPoint</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">getCenterPoint</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/GeoPoint.html">GeoPoint</a></span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>a new GeoPoint at the horizontal and vertical center of this BoundingBox.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2017 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2017-03-05)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.4</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
