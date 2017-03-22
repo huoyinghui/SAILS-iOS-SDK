@@ -453,7 +453,12 @@ static int WITH_GPS = 2048;
 - (BOOL)amIHere:(LocationRegion *)region;
 
 - (void)setGPSThresholdParameterInToOut:(int)inToOut outToIn:(int)outToIn powerThreshold:(int)rssi;
-
+/**
+ * Get user orientation degree.
+ *
+ * @return heading angle by degree.
+ */
+- (double)getUserHeading;
 /**
  * Get current longitude of user location.
  *
@@ -468,6 +473,12 @@ static int WITH_GPS = 2048;
  * @return double value of latitude.
  */
 - (double)getLatitude;
+///**
+// * Get user orientation degree.
+// *
+// * @return heading angle by degree.
+// */
+- (double)getUserHeading;
 
 -(void) loadZipPackageWithURL: (NSString*) url version:(NSString*) version success:(void (^)(void))success failure:(void (^)(NSError *error))failure;
 
