@@ -307,6 +307,10 @@ typedef NS_ENUM(NSInteger, PathRoutingDirection) {
 
 - (NSArray *)getCurrentAllPathNodes;
 
+- (PathRoutingManager *)locationRegionCrossable:(BOOL)crossable;
+
+- (PathRoutingManager *)avoidUpDownFloor:(BOOL)avoid;
+
 - (PathRoutingManager *)routingOnlyOnce:(BOOL)once;
 
 - (void)routingOnceRefresh;
