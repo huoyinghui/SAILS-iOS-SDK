@@ -11,6 +11,7 @@
 
 static int WITHOUT_FOLLOW_HEADING = 512;
 static int WITH_GPS = 2048;
+static int SIMULATION = 8192;
 
 @class LocationRegion;
 
@@ -20,7 +21,18 @@ static int WITH_GPS = 2048;
 
 @property(nonatomic, copy) NSString *gpsFloorLayer;
 
+@property(nonatomic) double userHeading;
+
+
 - (NSMutableArray *)sortLocationRegionsByPathLength:(NSArray *)locationRegions;
+
+- (void)setSimulationUserHeading:(double)userHeading;
+
+- (void)setSimulationLongitude:(double)longitude;
+
+- (void)setSimulationLatitude:(double)latitude;
+
+- (void)setSimulationFloor:(NSString *)layer;
 
 - (void)setGPSFloorLayer:(NSString *)layer;
 
