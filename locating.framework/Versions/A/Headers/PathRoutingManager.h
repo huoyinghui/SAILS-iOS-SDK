@@ -171,6 +171,10 @@ typedef NS_ENUM(NSInteger, PathRoutingDirection) {
  */
 - (void)setTargetRegion:(LocationRegion *)target;
 
+/**
+ * Get all path routing nodes (return GeoNode object)
+ */
+- (NSArray *)getCurrentAllPathNodes;
 
 #pragma mark Set Routing Update Callback Block Method
 
@@ -305,7 +309,7 @@ typedef NS_ENUM(NSInteger, PathRoutingDirection) {
  */
 - (BOOL)isArriveTarget;
 
-- (NSArray *)getCurrentAllPathNodes;
+
 
 - (PathRoutingManager *)locationRegionCrossable:(BOOL)crossable;
 

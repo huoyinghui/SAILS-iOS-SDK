@@ -678,6 +678,7 @@ typedef NS_ENUM(NSInteger, SailsMapControlMode) {
 - (BOOL)isInLocationFloor;
 
 
+- (GeoPoint *)getNavigationModeGeoPoint:(GeoPoint *)point Heading:(float)heading;
 
 - (void)setNavigationModeYOffsetHeightRatio:(double)ratio;
 
