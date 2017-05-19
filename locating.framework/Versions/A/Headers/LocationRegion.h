@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @class MapDatabase;
+@class Dijkstra3DNode;
+@class Sails;
 
 #pragma mark Location Region Language
 /**
@@ -47,6 +49,12 @@ typedef NS_ENUM(NSInteger, LocationRegionLanguage) {
 
 @property(nonatomic) double updatedLength;
 @property(nonatomic) int changeFloorCount;
+@property(nonatomic) BOOL useDynamicPathLink;
+@property(nonatomic, strong) Dijkstra3DNode *dynamicAnchor;
+
+- (id)initWithLabel:(NSString *)labelName Longitude:(double)longitude Latitude:(double)latitude Floor:(NSString *)floorName Sails:(Sails *)sails;
+
+
 #pragma mark Setter Method
 
 /**

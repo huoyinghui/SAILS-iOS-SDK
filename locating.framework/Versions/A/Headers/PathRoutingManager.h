@@ -44,7 +44,11 @@ typedef NS_ENUM(NSInteger, PathRoutingMode) {
      * Routing Mode: wheel-can-go path routing.
      *
      */
-    WheelMode = 5
+    WheelMode = 5,
+    ElevatorFirstMode = 6,
+    EscalatorFirstMode = 7
+    
+
 };
 
 #pragma mark Path Routing Node Type
@@ -318,6 +322,8 @@ typedef NS_ENUM(NSInteger, PathRoutingDirection) {
 - (PathRoutingManager *)routingOnlyOnce:(BOOL)once;
 
 - (void)routingOnceRefresh;
+
+- (int)getCurrentFloorRemainingDistance;
 @end
 
 

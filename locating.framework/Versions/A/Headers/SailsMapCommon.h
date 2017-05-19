@@ -149,6 +149,9 @@
  */
 @interface PolygonalChain : NSObject
 
+@property(nonatomic) CGRect screenSize;
+
+
 - (id)initWithVertexList:(NSArray *) geopointlist;
 - (NSMutableArray *)getGeoPoints;
 
@@ -162,7 +165,12 @@
  */
 @interface Polygon : NSObject
 
+@property(nonatomic) CGRect screenSize;
+
 - (id)initWithPolygonalChains:(NSMutableArray *)polygonalchains andPolygonPaint:(Paint *)polygonpaint;
+
+- (id)initWithPolygonalChains:(NSMutableArray *)polygonalchains andPolygonPaint:(Paint *)polygonpaint andScreenSize:(CGRect)screenSize;
+
 - (void)setPolygonPaint:(Paint *)polygonpaint;
 - (Paint *)getPolygonPaint;
 - (NSMutableArray *)getPolygonalChains;
@@ -234,6 +242,7 @@
 - (double)getRotationAngle;//in radians
 - (UIImage *)getImage;
 - (void)setMarkerGeoPoint:(GeoPoint *)aGeoPoint;
+- (void)setTransparency:(float)alpha;
 - (void)setRotationAngle:(double)angle;//in radians
 - (void)setImage:(UIImage *)image;
 - (void)setMarkerFrame:(int)frame;
@@ -248,11 +257,20 @@
  */
 @interface TextOverlay : NSObject
 
+@property(nonatomic) CGRect screenSize;
+
+- (void)setGeoPoint:(GeoPoint *)geopoint;
+
+- (void)setText:(NSString *)textstring;
+
+- (void)setPaint:(Paint *)paint;
+
 - (id)initWithGeoPoint:(GeoPoint *)geopoint andString:(NSString *)textstring andPaint:(Paint *)paint;
 - (NSMutableArray *)getTextOverlayList;
 - (void)setTextOverlayList:(NSMutableArray *)textOverlayListArray;
 - (BOOL)getIsDrawed;
 
+- (void)setBitmapScreenSize:(CGRect)rect;
 @end
 
 
@@ -279,6 +297,7 @@
     BoundingBox *mapBoundingBox;
     
 }
+
 @end
 
 
@@ -381,6 +400,8 @@ typedef NS_ENUM(NSInteger, SailsMapControlMode) {
  */
 - (void)reDrawManager;
 
+
+- (void)redrawOnlyDynamic;
 
 /**
  * Remove map.
@@ -685,6 +706,8 @@ typedef NS_ENUM(NSInteger, SailsMapControlMode) {
 - (CGPoint)lonLatToPointXY:(GeoPoint *)point;
 
 -(void) setZoomLevelMin:(int)minZoom ;
+- (void)setZoomLevel:(int) newzoomlevel;
+
 
 @end
 

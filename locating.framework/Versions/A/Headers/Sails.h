@@ -14,6 +14,7 @@ static int WITH_GPS = 2048;
 static int SIMULATION = 8192;
 
 @class LocationRegion;
+@class RoutingInfo;
 
 @interface Sails : NSObject
 
@@ -23,6 +24,8 @@ static int SIMULATION = 8192;
 
 @property(nonatomic) double userHeading;
 
+
+- (RoutingInfo *)route3DwithSavedRoutedPath:(NSArray *)routedPath target:(LocationRegion *)lr;
 
 - (NSMutableArray *)sortLocationRegionsByPathLength:(NSArray *)locationRegions;
 
@@ -134,6 +137,8 @@ static int SIMULATION = 8192;
  */
 - (void)setLocationRegionFloor:(LocationRegion *)region andFloorName:(NSString *)floorName;
 
+
+- (void)setPathRoutingNodeList:(NSMutableArray *)pathList;
 
 #pragma mark Set Sails Callback Block Method
 
@@ -509,6 +514,7 @@ static int SIMULATION = 8192;
 @property (nonatomic) double latitude;
 @property (nonatomic) int floorNumber;
 @property (nonatomic, strong) NSString *floorName;
+@property (nonatomic, strong) NSString *floorDesc;
 @property (nonatomic, strong) LocationRegion *belongsRegion;
 
 - (id)initWithLogitude:(double)lon latitude:(double)lat;
