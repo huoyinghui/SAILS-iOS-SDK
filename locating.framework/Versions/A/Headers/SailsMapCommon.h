@@ -590,6 +590,8 @@ typedef NS_ENUM(NSInteger, SailsMapControlMode) {
 
 #pragma mark Getter Method
 
+- (void)setOnMapAngleChangedEventBlock:(void (^)(void))block;
+
 /**
  * Get current mode setting.
  *
@@ -707,7 +709,11 @@ typedef NS_ENUM(NSInteger, SailsMapControlMode) {
 
 -(void) setZoomLevelMin:(int)minZoom ;
 - (void)setZoomLevel:(int) newzoomlevel;
+- (BOOL)startMoveMapAnimationWithTarget:(GeoPoint *)targetpoint andSpeed:(int)speed;
 
+#define kSailsMapviewMoveFast 1
+#define kSailsMapviewMoveNormal 0
+#define kSailsMapviewMoveSlow 2
 
 @end
 

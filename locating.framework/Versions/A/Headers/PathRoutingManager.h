@@ -46,8 +46,9 @@ typedef NS_ENUM(NSInteger, PathRoutingMode) {
      */
     WheelMode = 5,
     ElevatorFirstMode = 6,
-    EscalatorFirstMode = 7
-    
+    EscalatorFirstMode = 7,
+    EscalatorAndStairFirstMode = 8
+
 
 };
 
