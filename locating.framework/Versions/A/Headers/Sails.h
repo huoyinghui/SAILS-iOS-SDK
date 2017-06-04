@@ -57,6 +57,12 @@ static int SIMULATION = 8192;
 - (void)startLocatingEngine;
 
 
+- (NSArray *)getBuildingsName;
+
+- (LocationRegion *)getInBuildingNameLon:(double)lon Lat:(double)lat;
+
+- (LocationRegion *)getCurrentInBuildingName;
+
 /**
  * Call for stop locate. engine will be turn off.
  */
@@ -91,6 +97,13 @@ static int SIMULATION = 8192;
 
 
 - (void)loadLocalZipBuildingFile:(NSURL *)filePath success:(void (^)(void))success failure:(void (^)(NSError *error))failure;
+
+- (void)loadCloudBuilding:(NSString *)token buildingID:(NSString *)buildingId onCachedLoaded:(void (^)(void))onCacheLoaded onNetworkLoadingProgress:(void (^)(BOOL done, int progress))networkProgress onNetworkLoadingFailed:(void (^)(NSError *error))failure;
+
+
+- (void)cancelDownload;
+
+- (void)refreshCloudBuilding:(NSString *)buildingId success:(void (^)(void))success failure:(void (^)(NSError *error))failure;
 
 /**
  * Load building project from cloud.
