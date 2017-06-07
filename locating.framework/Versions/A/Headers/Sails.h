@@ -15,6 +15,7 @@ static int SIMULATION = 8192;
 
 @class LocationRegion;
 @class RoutingInfo;
+@class GPSLocation;
 
 @interface Sails : NSObject
 
@@ -515,6 +516,7 @@ static int SIMULATION = 8192;
 -(BOOL) isLatterVersion:(NSString*) version;
 
 - (void) loadLastBuildingAuto: (NSURL *)filePath withVersion:(NSString*) version success:(void (^)(void))success failure:(void (^)(NSError *error))failure;
+
 
 @end
 

@@ -259,6 +259,8 @@
 
 @property(nonatomic) CGRect screenSize;
 
+@property(nonatomic) bool inDraw;
+
 - (void)setGeoPoint:(GeoPoint *)geopoint;
 
 - (void)setText:(NSString *)textstring;
