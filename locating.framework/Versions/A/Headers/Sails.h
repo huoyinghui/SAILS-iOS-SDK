@@ -26,6 +26,8 @@ static int SIMULATION = 8192;
 @property(nonatomic) double userHeading;
 
 
+@property(nonatomic) double speedfactor;
+
 - (RoutingInfo *)route3DwithSavedRoutedPath:(NSArray *)routedPath target:(LocationRegion *)lr;
 
 - (NSMutableArray *)sortLocationRegionsByPathLength:(NSArray *)locationRegions;
@@ -45,6 +47,8 @@ static int SIMULATION = 8192;
 - (BOOL)isUseGPS;
 
 - (void)setMode:(int)m;
+
+- (void)setSpeedFactor:(double)factor;
 
 - (BOOL)checkMode:(int)m;
 
@@ -509,7 +513,7 @@ static int SIMULATION = 8192;
 // *
 // * @return heading angle by degree.
 // */
-- (double)getUserHeading;
+
 
 -(void) loadZipPackageWithURL: (NSString*) url version:(NSString*) version success:(void (^)(void))success failure:(void (^)(NSError *error))failure;
 
