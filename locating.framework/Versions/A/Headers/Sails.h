@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "SailsMapCommon.h"
+#import "PathRoutingManager.h"
 
 static int WITHOUT_FOLLOW_HEADING = 512;
 static int WITH_GPS = 2048;
@@ -27,6 +28,14 @@ static int SIMULATION = 8192;
 
 
 @property(nonatomic) double speedfactor;
+
+@property(nonatomic) BOOL lockAngle;
+
+@property(nonatomic, strong) LocationRegion *savelr;
+
+@property(nonatomic) PathRoutingMode routingMode;
+
+@property(nonatomic) bool isProcessLonLat;
 
 - (RoutingInfo *)route3DwithSavedRoutedPath:(NSArray *)routedPath target:(LocationRegion *)lr;
 
@@ -122,6 +131,9 @@ static int SIMULATION = 8192;
 
 
 #pragma mark Setter Method
+
+- (NSMutableDictionary *)getBackgroundLocation:(NSMutableDictionary *)scanResults;
+
 /**
  * Initialize map view, must include when do initialization.
  *
@@ -494,6 +506,9 @@ static int SIMULATION = 8192;
  * @return heading angle by degree.
  */
 - (double)getUserHeading;
+
+- (double)getMapViewRotation;
+
 /**
  * Get current longitude of user location.
  *

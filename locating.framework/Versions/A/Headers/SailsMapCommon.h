@@ -112,6 +112,7 @@
 @property (strong, nonatomic) UIColor *textStrokeColor;
 @property (nonatomic) float textStrokeWidth;
 @property (nonatomic) int textSize;
+@property (nonatomic) BOOL dashed;
 
 @end
 
@@ -300,6 +301,7 @@
     
 }
 
+@property(nonatomic) BOOL lockTraceAngle;
 @end
 
 
@@ -539,7 +541,7 @@ typedef NS_ENUM(NSInteger, SailsMapControlMode) {
 /**
  * Call back when user touch on the map.
  */
-- (void)setOnMapClickBlock:(void (^)(CGPoint tapPoint))block;
+- (void)setOnMapClickBlock:(BOOL (^)(CGPoint tapPoint))block;
 
 
 /**
