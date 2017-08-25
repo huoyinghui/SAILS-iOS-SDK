@@ -132,7 +132,7 @@ static int SIMULATION = 8192;
 
 #pragma mark Setter Method
 
-- (NSMutableDictionary *)getBackgroundLocation:(NSMutableDictionary *)scanResults;
+- (NSDictionary *)getBackgroundLocation:(NSArray *)scanResults;
 
 /**
  * Initialize map view, must include when do initialization.
