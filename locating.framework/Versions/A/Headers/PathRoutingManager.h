@@ -107,6 +107,18 @@ typedef NS_ENUM(NSInteger, PathRoutingDirection) {
 
 @property(nonatomic) BOOL routed;
 
+@property(nonatomic) BOOL lockPath;
+
+@property(nonatomic) PathRoutingMode saveMode;
+
+@property(nonatomic) BOOL firstRouted;
+
+@property(nonatomic) double insideRange;
+
+@property(nonatomic) double outsideRange;
+
+@property(nonatomic) NSTimeInterval redrawTimestmap;
+
 /**
  * Begin to route. (Note: start & end point must be set before going to route)
  */

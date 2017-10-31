@@ -114,6 +114,7 @@
 @property (nonatomic) int textSize;
 @property (nonatomic) BOOL dashed;
 
+- (id)copyWithZone:(NSZone *)zone;
 @end
 
 
@@ -223,6 +224,8 @@
 - (id)initWithGeoPoint:(GeoPoint *)geopoint andImage:(UIImage *)image andMarkerFrame:(CGFloat)markerframe andIsBoundCenter:(BOOL)isboundcenter;
 - (GeoPoint *)getMarkerGeoPoint;
 - (UIImage *)getImage;
+- (void)setTransparency:(float)alpha;
+
 - (void)setMarkerGeoPoint:(GeoPoint *)aGeoPoint;
 - (void)setImage:(UIImage *)image;
 - (void)setMarkerFrame:(int)frame;
@@ -268,6 +271,8 @@
 
 - (void)setPaint:(Paint *)paint;
 
+- (void)setTransparency:(float)alpha;
+
 - (id)initWithGeoPoint:(GeoPoint *)geopoint andString:(NSString *)textstring andPaint:(Paint *)paint;
 - (NSMutableArray *)getTextOverlayList;
 - (void)setTextOverlayList:(NSMutableArray *)textOverlayListArray;
@@ -302,6 +307,8 @@
 }
 
 @property(nonatomic) BOOL lockTraceAngle;
+@property(nonatomic) BOOL isBaseMapLoaded;
+@property(nonatomic) BOOL baseMapMaskEnabled;
 @end
 
 
@@ -365,6 +372,8 @@ typedef NS_ENUM(NSInteger, SailsMapControlMode) {
 @interface SailsLocationMapView : SailsMapView
 
 #pragma mark Operation Method
+
+@property(nonatomic, copy) NSString *baseMapFloorName;
 
 - (BOOL)isInMap:(GeoPoint *)gp;
 

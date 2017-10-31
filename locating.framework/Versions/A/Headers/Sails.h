@@ -71,6 +71,8 @@ static int SIMULATION = 8192;
 - (void)startLocatingEngine;
 
 
+- (LocationRegion *)isInParkingAreaLon:(double)lon Lat:(double)lat Floor:(NSString *)floor;
+
 - (NSArray *)getBuildingsName;
 
 - (LocationRegion *)getInBuildingNameLon:(double)lon Lat:(double)lat;
@@ -530,7 +532,17 @@ static int SIMULATION = 8192;
 // */
 
 
--(void) loadZipPackageWithURL: (NSString*) url version:(NSString*) version success:(void (^)(void))success failure:(void (^)(NSError *error))failure;
+- (void)setProcessLon:(double)lon andLat:(double)lat;
+
+- (double)getProcessLongitude;
+
+- (double)getProcessLatitude;
+
+- (BOOL)setLockPathEnable:(BOOL)enable;
+
+- (BOOL)setLockPathParameterInside:(double)inRange Outside:(double)outRange;
+
+-(void)loadZipPackageWithURL: (NSString*) url version:(NSString*) version success:(void (^)(void))success failure:(void (^)(NSError *error))failure;
 
 -(BOOL) isLatterVersion:(NSString*) version;
 
