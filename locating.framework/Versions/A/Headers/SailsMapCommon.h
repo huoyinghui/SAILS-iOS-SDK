@@ -10,6 +10,8 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
+@class ZoomRefreshAnimation;
+
 #pragma mark - GeoPoint Class
 
  /**
@@ -309,6 +311,14 @@
 @property(nonatomic) BOOL lockTraceAngle;
 @property(nonatomic) BOOL isBaseMapLoaded;
 @property(nonatomic) BOOL baseMapMaskEnabled;
+@property(nonatomic) int saveZoom;
+@property(nonatomic) float zoomLevel;
+
+- (void)autoSetMapZoomAndView:(NSArray *)geoPointList andWidth:(int)width;
+
+- (float)getZoomLevelMax;
+
+- (float)getZoomLevelMin;
 @end
 
 
@@ -443,7 +453,7 @@ typedef NS_ENUM(NSInteger, SailsMapControlMode) {
  *
  * @param level input zoom level value (0~22)
  */
-- (void)startAnimationToZoom:(Byte)level;
+- (void)startAnimationToZoom:(float)level;
 
 
 /**
@@ -638,7 +648,7 @@ typedef NS_ENUM(NSInteger, SailsMapControlMode) {
 /**
  * @return the current zoom level of the map.
  */
-- (int)getZoomLevel;
+- (float)getZoomLevel;
 
 
 /**
@@ -650,13 +660,14 @@ typedef NS_ENUM(NSInteger, SailsMapControlMode) {
 /**
  * @return the currently visible boundaries of the map.
  */
-- (BoundingBox *)getBoundingBox:(Byte)zoomlevel;
+- (BoundingBox *)getBoundingBox:(float)zoomlevel;
 
+- (BoundingBox *)getBoundingBox:(double)longitude andLatitude:(double)latitude andSquareLength:(int)length andZoomLevel:(float) zoomlevel;
 
 /**
  * @return the currently visible boundaries of the map.
  */
-- (BoundingBox *)getBoundingBox:(double) longitude andLatitude:(double) latitude andZoomLevel:(Byte) zoomlevel;
+- (BoundingBox *)getBoundingBox:(double)longitude andLatitude:(double)latitude andZoomLevel:(float) zoomlevel;
 
 
 /**
@@ -721,7 +732,7 @@ typedef NS_ENUM(NSInteger, SailsMapControlMode) {
 - (CGPoint)lonLatToPointXY:(GeoPoint *)point;
 
 -(void) setZoomLevelMin:(int)minZoom ;
-- (void)setZoomLevel:(int) newzoomlevel;
+- (void)setZoomLevel:(float) newzoomlevel;
 - (BOOL)startMoveMapAnimationWithTarget:(GeoPoint *)targetpoint andSpeed:(int)speed;
 
 #define kSailsMapviewMoveFast 1

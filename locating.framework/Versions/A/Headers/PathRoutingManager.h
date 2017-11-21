@@ -119,6 +119,8 @@ typedef NS_ENUM(NSInteger, PathRoutingDirection) {
 
 @property(nonatomic) NSTimeInterval redrawTimestmap;
 
+@property(nonatomic) BOOL lockLast;
+
 /**
  * Begin to route. (Note: start & end point must be set before going to route)
  */
@@ -245,6 +247,8 @@ typedef NS_ENUM(NSInteger, PathRoutingDirection) {
 
 
 #pragma mark Getter Method
+
+- (void)setOnPathRearragedBlock:(void (^)(void))block;
 
 /**
  * Get current route mode.

@@ -10,6 +10,14 @@
 #import "SailsMapCommon.h"
 #import "PathRoutingManager.h"
 
+typedef enum {
+    SSStrongBeaconSignal,
+    SSWeakBeaconSignal,
+    SSNoBeaconGPSInMap,
+    SSNoBeaconGPSOutMap,
+    SSStatusUnavaliable
+} SignalStatus;
+
 static int WITHOUT_FOLLOW_HEADING = 512;
 static int WITH_GPS = 2048;
 static int SIMULATION = 8192;
@@ -36,6 +44,11 @@ static int SIMULATION = 8192;
 @property(nonatomic) PathRoutingMode routingMode;
 
 @property(nonatomic) bool isProcessLonLat;
+
+
+@property(nonatomic, strong) NSTimer *signalStrengthRefreshTimer;
+
+- (RoutingInfo *)route3DwithSavedRoutedPath:(NSArray *)routedPath RemainPath:(NSArray *)remainPath target:(LocationRegion *)lr;
 
 - (RoutingInfo *)route3DwithSavedRoutedPath:(NSArray *)routedPath target:(LocationRegion *)lr;
 
@@ -502,6 +515,9 @@ static int SIMULATION = 8192;
 - (BOOL)amIHere:(LocationRegion *)region;
 
 - (void)setGPSThresholdParameterInToOut:(int)inToOut outToIn:(int)outToIn powerThreshold:(int)rssi;
+
+- (SignalStatus)getSignalStatus;
+
 /**
  * Get user orientation degree.
  *
