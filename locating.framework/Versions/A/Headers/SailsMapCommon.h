@@ -314,7 +314,11 @@
 @property(nonatomic) int saveZoom;
 @property(nonatomic) float zoomLevel;
 
+@property(nonatomic, strong) NSTimer *baseTimer;
+
 - (void)autoSetMapZoomAndView:(NSArray *)geoPointList andWidth:(int)width;
+
+- (void)setViewCenterLon:(double)newcenterlon andCenterLat:(double)newcenterlat;
 
 - (float)getZoomLevelMax;
 
