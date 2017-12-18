@@ -518,6 +518,9 @@ static int SIMULATION = 8192;
 
 - (SignalStatus)getSignalStatus;
 
+- (void)setServerURL:(NSString *)url inChina:(BOOL)inChina;
+
+
 /**
  * Get user orientation degree.
  *
